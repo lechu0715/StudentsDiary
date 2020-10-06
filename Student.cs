@@ -21,9 +21,9 @@ namespace StudentsDiary1
         public int GroupId { get; set; }
     }
 
-    public class Group
-    {
-        public int Id { get; set; }
-    }
+    //public class Group
+    //{
+    //    public int Id { get; set; }
+    //}
 
 }
