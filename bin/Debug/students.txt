@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Id>3</Id>
+    <FirstName>leszek</FirstName>
+    <LastName>parol</LastName>
+    <Comments>uwagi</Comments>
+    <Math>mat</Math>
+    <Technology>tech</Technology>
+    <Physics>fiz</Physics>
+    <PolishLang>pol</PolishLang>
+    <ForeignLang>obcy</ForeignLang>
+    <Activities>true</Activities>
+    <GroupId>3</GroupId>
+  </Student>
+  <Student>
+    <Id>4</Id>
+    <FirstName />
+    <LastName />
+    <Comments />
+    <Math />
+    <Technology />
+    <Physics />
+    <PolishLang />
+    <ForeignLang />
+    <Activities>false</Activities>
+    <GroupId>2</GroupId>
+  </Student>
+</ArrayOfStudent>

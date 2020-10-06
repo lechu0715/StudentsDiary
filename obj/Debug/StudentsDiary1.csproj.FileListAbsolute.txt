@@ -1,0 +1,11 @@
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\bin\Debug\StudentsDiary1.exe.config
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\bin\Debug\StudentsDiary1.exe
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\bin\Debug\StudentsDiary1.pdb
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.csprojAssemblyReference.cache
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.AddEditStudent.resources
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.Main.resources
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.Properties.Resources.resources
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.csproj.GenerateResource.cache
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.csproj.CoreCompileInputs.cache
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.exe
+C:\Users\Lechosław\source\repos\StudentsDiary1\StudentsDiary1\obj\Debug\StudentsDiary1.pdb
