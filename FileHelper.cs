@@ -4,7 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 using System.Xml.Serialization;
+
 
 namespace StudentsDiary1
 {
@@ -18,6 +20,25 @@ namespace StudentsDiary1
         public FileHelper(string filePath)
         {
             _filePath = filePath;
+        }
+
+        public void SerializeToFileJson(List<Student> students)
+        {
+            var serializer = new JavaScriptSerializer();
+
+            using (var streamWriter = new StreamWriter(_filePath))
+            {
+                serializer.Serialize(streamWriter, students);
+                streamWriter.Close();
+            }
+
+
+            //Student bsObj = new Student()
+            //{
+            //    FirstName = "C-sharpcorner"
+            //};
+            //JavaScriptSerializer js = new JavaScriptSerializer();
+            //string jsonData = js.Serialize(bsObj);
         }
 
         public void SerializeToFile(T students)
