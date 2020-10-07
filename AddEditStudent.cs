@@ -30,11 +30,6 @@ namespace StudentsDiary1
             tbFirstName.Select();
         }
 
-        private void AddGroups()
-        {
-            
-        }
-
         private void GetStudentData()
         {
             if (_studentId != 0)
@@ -56,8 +51,7 @@ namespace StudentsDiary1
 
         private void FillTextBoxes()
         {
-            //var cbText = cbActivities.Checked ? "uczęszcza" : "nie uczęszcza";
-
+            
             tbId.Text = _student.Id.ToString();
             tbFirstName.Text = _student.FirstName;
             tbLastName.Text = _student.LastName;
@@ -94,11 +88,7 @@ namespace StudentsDiary1
 
         private void AddNewUserToList(List<Student> students)
         {
-            //var cbText = cbActivities.Checked ? "uczęszcza" : "nie uczęszcza";
-            //var cmbGroup = cmbGroup
-            //
-            //_gruopId = cmbGroup.SelectedIndex;
-
+            
             var student = new Student
             {
 

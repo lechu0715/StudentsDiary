@@ -22,24 +22,17 @@ namespace StudentsDiary1
             _filePath = filePath;
         }
 
-        public void SerializeToFileJson(List<Student> students)
-        {
-            var serializer = new JavaScriptSerializer();
-
-            using (var streamWriter = new StreamWriter(_filePath))
-            {
-                serializer.Serialize(streamWriter, students);
-                streamWriter.Close();
-            }
-
-
-            //Student bsObj = new Student()
-            //{
-            //    FirstName = "C-sharpcorner"
-            //};
-            //JavaScriptSerializer js = new JavaScriptSerializer();
-            //string jsonData = js.Serialize(bsObj);
-        }
+        //public void SerializeToFileJson(List<Student> students)
+        //{
+        //    var serializer = new JavaScriptSerializer();
+        //
+        //    using (var streamWriter = new StreamWriter(_filePath))
+        //    {
+        //        serializer.Serialize(students);
+        //        streamWriter.Close();
+        //    }
+        //
+        //}
 
         public void SerializeToFile(T students)
         {
@@ -52,6 +45,23 @@ namespace StudentsDiary1
             }
 
         }
+
+        //public T DeserializeFromFileJson()
+        //{
+        //    if (!File.Exists(_filePath))
+        //    {
+        //        return new T();
+        //    }
+        //
+        //    var serializer = new JavaScriptSerializer();
+        //
+        //    using (var streamReader = new StreamReader(_filePath))
+        //    {
+        //        var students = List<Student>serializer.Deserialize(streamReader);
+        //        streamReader.Close();
+        //        return students;
+        //    }
+        //}
 
         public T DeserializeFromFile()
         {

@@ -93,6 +93,7 @@ namespace StudentsDiary1
             var students = _fileHelper.DeserializeFromFile();
             students.RemoveAll(x => x.Id == id);
             _fileHelper.SerializeToFile(students);
+            
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
@@ -112,7 +113,7 @@ namespace StudentsDiary1
                 var index = Convert.ToInt32(cbmGroupM.SelectedItem);
             
                 var students = _fileHelper.DeserializeFromFile();
-                var _students = students.Where(x => x.GroupId == index);
+                var _students = students.Where(x => x.GroupId == index).ToList();
                 dvgDiary.DataSource = _students;
             }
         }
