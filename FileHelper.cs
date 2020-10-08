@@ -22,17 +22,19 @@ namespace StudentsDiary1
             _filePath = filePath;
         }
 
-        //public void SerializeToFileJson(List<Student> students)
-        //{
-        //    var serializer = new JavaScriptSerializer();
-        //
-        //    using (var streamWriter = new StreamWriter(_filePath))
-        //    {
-        //        serializer.Serialize(students);
-        //        streamWriter.Close();
-        //    }
-        //
-        //}
+        public void SerializeToFileJson(T students)
+        {
+            var serializer = new JavaScriptSerializer();
+        
+            using (var streamWriter = new StreamWriter(_filePath))
+            {
+                serializer.Serialize(students);
+                streamWriter.Close();
+            }
+
+            //string jsonData = JsonConvert.SerializeObject(List<Student> students);
+
+        }
 
         public void SerializeToFile(T students)
         {
